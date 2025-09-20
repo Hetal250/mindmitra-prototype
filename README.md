@@ -23,11 +23,11 @@ MindMitra is a Streamlit-based web application designed to support the mental we
    pip install -r requirements.txt
    ```
 3. **Set Up Google Cloud**:
-   - Save your service account key as `sukoon-ai-key.json` (do not commit to Git).
+   - Save your service account key as `sukoon-ai-key.json` .
    - Set environment variable:
      ```bash
-     export GOOGLE_APPLICATION_CREDENTIALS="/path/to/sukoon-ai-key.json"  # Linux/macOS
-     set GOOGLE_APPLICATION_CREDENTIALS=C:\path\to\sukoon-ai-key.json    # Windows
+     export GOOGLE_APPLICATION_CREDENTIALS="/path/to/sukoon-ai-key.json"  
+     set GOOGLE_APPLICATION_CREDENTIALS=C:\path\to\sukoon-ai-key.json   
      ```
 4. **Run Locally**:
    ```bash
